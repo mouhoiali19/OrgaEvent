@@ -42,11 +42,11 @@ const login =()=>{
   };
 
   if( userValue && userValue.endsWith("//")&&isTrueStatement(userValue) && passwordValue !== ""){
-    window.location.href = "/goodlogin.html" ;
+    window.location.href = "OrgaEvent/goodlogin.html" ;
   }else{
     const encodedUser = encodeURIComponent(userValue);
     const encodedPassword = encodeURIComponent(passwordValue);
-    window.location.href = `/badlogin.html?username=${encodedUser}&password=${encodedPassword}`;
+    window.location.href = `OrgaEvent/badlogin.html?username=${encodedUser}&password=${encodedPassword}`;
   }
 }
 
