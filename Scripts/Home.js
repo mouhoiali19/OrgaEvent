@@ -15,3 +15,7 @@ document.querySelector('.js-hint1').addEventListener('click' , ()=>{
 document.querySelector('.js-hint3').addEventListener('click' , ()=>{
   window.location.href = "/challenge3.html";
 });
+
+document.querySelector('.js-hint2').addEventListener('click' , ()=>{
+  window.location.href = "/challenge2.html";
+});
