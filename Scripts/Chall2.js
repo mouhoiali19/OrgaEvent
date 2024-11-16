@@ -4,7 +4,7 @@ const cryptkey =()=>{
   const resp = document.querySelector('.js-inp2');
   const failMessage = document.querySelector('.js-fail');
   if(resp.value == "vnuimfhdvhuflskhu3lskhuogin"){
-      window.location.href = "OrgaEvent/winchall2.html";
+      window.location.href = "winchall2.html";
   }else{
     attemptCount++; // Increment attempt count on incorrect input
 

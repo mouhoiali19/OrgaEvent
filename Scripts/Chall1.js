@@ -8,7 +8,7 @@ const verification = () => {
   const tryMessage = document.querySelector('.js-try');
   
   if (rep.value == 101) {
-    window.location.href = "OrgaEvent/result1.html"; // Redirect if correct answer
+    window.location.href = "result1.html"; // Redirect if correct answer
   } else {
     attemptCount++; // Increment attempt count on incorrect input
 
